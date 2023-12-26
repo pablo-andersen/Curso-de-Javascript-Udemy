@@ -34,9 +34,9 @@ console.log(nuevoArregloMensajes);
 
 //reduce
 
-const arregloReduce = calificaciones.reduce(function(acc, item, indice){
-    return acc + item;
-}, 0);
+const arregloReduce = calificaciones.reduce(function(indice, valor){
+    return indice += valor;
+});
 
 console.log(arregloReduce);
 
@@ -83,11 +83,11 @@ console.log();
 //flat
 
 const parciales = [[10, 8], [7,5], [10, 10]];
-console.log(parciales.flat());
+console.log('parciales.flat -->  ' + parciales.flat());
 
 const output = [[[[10, 5]]],[2, 8]];
 
-console.log(output.flat(1));
+console.log('output.flat -->  ' + output.flat(1));
 
 //sort
 
@@ -104,7 +104,7 @@ const res02 = calificaciones.sort((a, b) =>{
 });
 
 console.log(arregloOrdenado);
-console.log(arregloOrdenado02);
+console.log(res02);
 
 
 
