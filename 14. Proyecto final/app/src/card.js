@@ -22,8 +22,8 @@ export default class Card{
                         <button class="more-options" ${dataId}>...</button>
                         <div class="submenu">
                             <ul>
-                                <li><a href="#"></a class="card-submenu-edit" ${dataId} data-index="${dataId}" data-board-index="${boardIndex}">Editar</li>
-                                <li><a href="#"></a class="card-submenu-delete" ${dataId} data-index="${dataId}" data-board-index="${boardIndex}">Eliminar</li>
+                                <li><a href="#" class="card-submenu-edit" ${dataId} data-index="${index}" data-board-index="${boardIndex}">Editar</a></li>
+                                <li><a href="#" class="card-submenu-delete" ${dataId} data-index="${index}" data-board-index="${boardIndex}">Eliminar</a></li>
                             </ul>
                         </div>
                     </div>

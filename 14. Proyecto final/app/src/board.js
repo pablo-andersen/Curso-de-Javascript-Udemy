@@ -38,8 +38,8 @@ export default class Board{
                         <button class="more-options">...</button>
                         <div class="submenu">
                             <ul>
-                                <li><a href="#" class="board-submenu-edit" data-id="${this.id}" data-index="${boardIndex}"></a>Editar</li>
-                                <li><a href="#" class="board-submenu-delete" data-id="${this.id}" data-index="${boardIndex}"></a>Eliminar</li>
+                                <li><a href="#" class="board-submenu-edit" data-id="${this.id}" data-index="${boardIndex}">Editar</a></li>
+                                <li><a href="#" class="board-submenu-delete" data-id="${this.id}" data-index="${boardIndex}">Eliminar</a></li>
                             </ul>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ export default class Board{
                 </div>        
                 <div class="new-item">
                     <form action="" class="form-new">
-                        <input type="text" class="new-input" placeholder="+ Add another card" name="" id="">
+                        <input type="text" class="new-input text" placeholder="+ Add another card" name="" id="">
                         <input type="hidden" class="index-board" name="" value="${boardIndex}">
                     </form>        
                 </div>
